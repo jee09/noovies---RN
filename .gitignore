@@ -1,0 +1,70 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# IDE 설정
+.idea/
+.vscode/
+
+# OS 관련 파일들
+Thumbs.db
+ehthumbs.db
+
+# 로그 파일들
+*.log
+
+# 아카이브 파일들
+*.zip
+*.tar.gz
+
+# 임시 파일들
+*.tmp
+*.temp
+
+# 에러 로그
+*.tscache
+*.eslintcache
+
+# 빌드 결과
+/build
+
+# 기타 파일 혹은 폴더
+/.awcache
+/.parcel-cache
+
+# 프로젝트별 설정 파일
+.project
+.classpath
+.c9/
