@@ -3,7 +3,6 @@ import colors from "../colors";
 
 export function useTheme() {
   const isDark = useColorScheme() === "dark";
-  console.log("🚀 ~ file: useTheme.js:6 ~ useTheme ~ isDark:", isDark);
 
   const theme = {
     background: isDark ? colors.charcoal : colors.white,
